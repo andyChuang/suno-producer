@@ -17,7 +17,7 @@ class Request:
 
 @click.command()
 def go():
-  for times in range(5):
+  for times in range(config.round_num):
     config = get_config()
 
     req = get_generate_customized_music_request(config)
