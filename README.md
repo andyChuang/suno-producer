@@ -16,4 +16,10 @@ https://github.com/gcui-art/suno-api?tab=readme-ov-file
     "round_num": [integer] The generated song number will be round_num * 2
 }
 ```
-3. Install the library via PIP and run this python code
+3. Install the library via PIP and run this python code. Call `python main.py --help` to get the command
+    1. `download` will download the songs which matching the title in the config
+    2. `get-custom-music` will create the new songs based on the config
+
+
+## Refs
+- https://suno.gcui.art/docs
