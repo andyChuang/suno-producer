@@ -25,9 +25,8 @@ def cli(debug):
 @cli.command()
 def get_custom_music():
   print("get custom music")
+  config = get_config()
   for times in range(config.round_num):
-    config = get_config()
-
     req = get_generate_customized_music_request(config)
 
     with request.urlopen(req) as response:

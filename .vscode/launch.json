@@ -11,7 +11,7 @@
             "program": "${file}",
             "console": "integratedTerminal",
             "cwd": "${fileDirname}",
-            "args": ["download"]
+            "args": ["get-custom-music"]
         }
     ]
 }
